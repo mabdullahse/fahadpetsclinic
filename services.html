@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Explore all veterinary services at Fahad Pets Clinic — General Consultation, Vaccination, Surgery, Dental Care, Emergency Care, Diagnostics, Nutrition, Parasite Prevention, Grooming, and Senior Pet Care." />
+  <title>Veterinary Services — Fahad Pets Clinic | Dr. Sarah Mitchell, DVM</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav id="navbar" class="navbar scrolled" aria-label="Main navigation">
+  <div class="container">
+    <div class="navbar-inner">
+      <a href="index.html" class="navbar-logo" aria-label="Fahad Pets Clinic Home">
+        <div class="logo-icon" style="background:rgba(26,107,60,0.1);box-shadow:none;" aria-hidden="true"><i class="fas fa-paw" style="color:var(--primary)"></i></div>
+        <div class="logo-text">
+          <span class="clinic-name" style="color:var(--primary-dark)">Fahad Pets Clinic</span>
+          <span class="clinic-tagline">Veterinary Medicine</span>
+        </div>
+      </a>
+      <ul class="navbar-menu" role="menubar">
+        <li role="none"><a href="index.html" class="nav-link" role="menuitem">Home</a></li>
+        <li role="none"><a href="about.html" class="nav-link" role="menuitem">About</a></li>
+        <li role="none"><a href="services.html" class="nav-link active" role="menuitem">Services</a></li>
+        <li role="none"><a href="doctors.html" class="nav-link" role="menuitem">Doctors</a></li>
+        <li role="none"><a href="contact.html" class="nav-link" role="menuitem">Contact</a></li>
+      </ul>
+      <div class="navbar-cta">
+        <a href="index.html#appointment" class="btn btn-primary btn-sm"><i class="fas fa-calendar-plus" aria-hidden="true"></i> Book Appointment</a>
+      </div>
+      <button id="hamburger" class="hamburger" aria-label="Open navigation menu" aria-expanded="false" aria-controls="mobileMenu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<!-- MOBILE MENU -->
+<div id="mobileOverlay" class="mobile-menu-overlay" aria-hidden="true"></div>
+<nav id="mobileMenu" class="mobile-menu" aria-label="Mobile navigation">
+  <div class="mobile-menu-header">
+    <div class="navbar-logo">
+      <div class="logo-icon" style="background:rgba(26,107,60,0.1);box-shadow:none;" aria-hidden="true"><i class="fas fa-paw" style="color:var(--primary)"></i></div>
+      <div class="logo-text"><span class="clinic-name" style="color:var(--primary-dark)">Fahad Pets Clinic</span><span class="clinic-tagline">Veterinary Medicine</span></div>
+    </div>
+    <button id="mobileMenuClose" class="mobile-menu-close" aria-label="Close navigation menu"><i class="fas fa-times" aria-hidden="true"></i></button>
+  </div>
+  <ul class="mobile-nav-links" role="menu">
+    <li role="none"><a href="index.html" class="mobile-nav-link" role="menuitem"><i class="fas fa-home" aria-hidden="true"></i> Home</a></li>
+    <li role="none"><a href="about.html" class="mobile-nav-link" role="menuitem"><i class="fas fa-user-md" aria-hidden="true"></i> About</a></li>
+    <li role="none"><a href="services.html" class="mobile-nav-link active" role="menuitem"><i class="fas fa-stethoscope" aria-hidden="true"></i> Services</a></li>
+    <li role="none"><a href="doctors.html" class="mobile-nav-link" role="menuitem"><i class="fas fa-users" aria-hidden="true"></i> Doctors</a></li>
+    <li role="none"><a href="contact.html" class="mobile-nav-link" role="menuitem"><i class="fas fa-envelope" aria-hidden="true"></i> Contact</a></li>
+  </ul>
+  <a href="index.html#appointment" class="mobile-cta"><i class="fas fa-calendar-plus" aria-hidden="true"></i> Book an Appointment</a>
+</nav>
+
+<main>
+
+<!-- PAGE HERO -->
+<section class="page-hero" aria-label="Page header">
+  <div class="container" style="position:relative;z-index:2;">
+    <div class="section-label" style="background:rgba(255,255,255,0.15);color:rgba(255,255,255,0.9);margin-bottom:20px;">
+      <i class="fas fa-stethoscope" aria-hidden="true"></i> What We Offer
+    </div>
+    <h1>Our Veterinary Services</h1>
+    <p>Comprehensive care for every stage of your pet's life — from newborn puppy to beloved senior.</p>
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <a href="index.html">Home</a>
+      <i class="fas fa-chevron-right" aria-hidden="true"></i>
+      <span aria-current="page">Services</span>
+    </nav>
+  </div>
+</section>
+
+<!-- SERVICES DETAIL -->
+<section class="services-page" aria-labelledby="servicesTitle">
+  <div class="container">
+    <div class="section-header center">
+      <div class="section-label"><i class="fas fa-list-ul" aria-hidden="true"></i> Complete Service Menu</div>
+      <h2 id="servicesTitle" class="section-title reveal">Everything Your Pet Needs</h2>
+      <p class="section-subtitle reveal delay-1">From preventive wellness to complex surgical procedures, Fahad Pets Clinic offers the full spectrum of veterinary medicine.</p>
+    </div>
+
+    <div class="service-detail-grid">
+
+      <!-- General Consultation -->
+      <article id="consultation" class="service-detail-card reveal delay-1">
+        <div class="service-detail-icon" aria-hidden="true"><i class="fas fa-stethoscope"></i></div>
+        <h3>General Veterinary Consultation</h3>
+        <p>A thorough, compassionate physical examination is the cornerstone of our practice. During your pet's consultation, Dr. Mitchell will assess every body system — eyes, ears, mouth, heart, lungs, abdomen, skin, and musculoskeletal structure — while discussing your pet's history, diet, and behavior.</p>
+        <div class="service-benefits">
+          <h5>Key Benefits</h5>
+          <div class="benefit-item"><i class="fas fa-check-circle" aria-hidden="true"></i> Early detection of health problems</div>
+          <div class="benefit-item"><i class="fas fa-check-circle" aria-hidden="true"></i> Personalized health recommendations</div>
+          <div class="benefit-item"><i class="fas fa-check-circle" aria-hidden="true"></i> Vaccination & parasite prevention review</div>
+          <div class="benefit-item"><i class="fas fa-check-circle" aria-hidden="true"></i> Nutritional & behavioral guidance</div>
+        </div>
+        <p style="font-size:0.85rem;color:var(--text-light);margin-bottom:20px;"><strong style="color:var(--text-medium);">When needed:</strong> Annual wellness visits, new pet adoption, any time you notice changes in your pet's health or behavior.</p>
+        <a href="index.html#appointment" class="btn btn-primary btn-sm"><i class="fas fa-calendar-plus" aria-hidden="true"></i> Book Consultation</a>
+      </article>
+
+      <!-- Vaccination -->
+      <article id="vaccination" class="service-detail-card reveal delay-2">
+        <div class="service-detail-icon" aria-hidden="true"><i class="fas fa-syringe"></i></div>
+        <h3>Vaccination & Immunization</h3>
+        <p>Vaccines are one of the most effective tools for protecting your pet from serious, often fatal diseases. Dr. Mitchell creates personalized vaccination schedules based on your pet's species, age, health status, lifestyle, and geographic location — ensuring optimal protection without unnecessary over-vaccination.</p>
+        <div class="service-benefits">
+          <h5>Key Benefits</h5>
+          <div class="benefit-item"><i class="fas fa-check-circle" aria-hidden="true"></i> Protection from rabies, distemper, parvovirus</div>
+          <div class="benefit-item"><i class="fas fa-check-circle" aria-hidden="true"></i> Customized schedules for each pet</div>
+          <div class="benefit-item"><i class="fas fa-check-circle" aria-hidden="true"></i> Puppy & kitten series included</div>
+          <div class="benefit-item"><i class="fas fa-check-circle" aria-hidden="true"></i> Booster reminders and digital records</div>
+        </div>
+        <p style="font-size:0.85rem;color:var(--text-light);margin-bottom:20px;"><strong style="color:var(--text-medium);">When needed:</strong> Puppies and kittens (series starting at 6–8 weeks), then annually or as recommended by Dr. Mitchell.</p>
+        <a href="index.html#appointment" class="btn btn-primary btn-sm"><i class="fas fa-calendar-plus" aria-hidden="true"></i> Schedule Vaccination</a>
+      </article>
+
+      <!-- Surgery -->
+      <article id="surgery" class="service-detail-card reveal delay-1">
+        <div class="service-detail-icon" aria-hidden="true"><i class="fas fa-procedures"></i></div>
+        <h3>Veterinary Surgery</h3>
+        <p>Our surgical suite is equipped with modern anesthesia monitoring systems, heated surgical tables, and advanced instruments. Dr. Mitchell performs a wide range of soft tissue procedures with precision and careful attention to pain management and post-operative recovery protocols.</p>
+        <div class="service-benefits">
+          <h5>Procedures Offered</h5>
+          <div class="benefit-item"><i class="fas fa-check-circle" aria-hidden="true"></i> Spay / neuter procedures</div>
+          <div class="benefit-item"><i class="fas fa-check-circle" aria-hidden="true"></i> Mass / tumor removal (soft tissue)</div>
+          <div class="benefit-item"><i class="fas fa-check-circle" aria-hidden="true"></i> GI foreign body removal</div>
+          <div class="benefit-item"><i class="fas fa-check-circle" aria-hidden="true"></i> Wound repair & reconstructive surgery</div>
+          <div class="benefit-item"><i class="fas fa-check-circle" aria-hidden="true"></i> Bladder stone removal</div>
+        </div>
+        <p style="font-size:0.85rem;color:var(--text-light);margin-bottom:20px;"><strong style="color:var(--text-medium);">When needed:</strong> Spay/neuter at appropriate age, when masses are detected, GI obstruction symptoms, or when non-surgical management fails.</p>
+        <a href="index.html#appointment" class="btn btn-primary btn-sm"><i class="fas fa-calendar-plus" aria-hidden="true"></i> Book Surgical Consultation</a>
+      </article>
+
+      <!-- Dental -->
+      <article id="dental" class="service-detail-card reveal delay-2">
+        <div class="service-detail-icon" aria-hidden="true"><i class="fas fa-tooth"></i></div>
+        <h3>Veterinary Dental Care</h3>
+        <p>Dental disease is the most common health condition in pets, affecting over 80% of dogs and 70% of cats by age 3. Our dental services include professional cleanings under anesthesia, digital dental X-rays, extractions, and comprehensive oral health assessments to prevent systemic disease caused by oral bacteria.</p>
+        <div class="service-benefits">
+          <h5>Key Benefits</h5>
+          <div class="benefit-item"><i class="fas fa-check-circle" aria-hidden="true"></i> Professional scaling & polishing</div>
+          <div class="benefit-item"><i class="fas fa-check-circle" aria-hidden="true"></i> Full-mouth digital dental X-rays</div>
+          <div class="benefit-item"><i class="fas fa-check-circle" aria-hidden="true"></i> Safe extractions when necessary</div>
+          <div class="benefit-item"><i class="fas fa-check-circle" aria-hidden="true"></i> Home dental care guidance</div>
+        </div>
+        <p style="font-size:0.85rem;color:var(--text-light);margin-bottom:20px;"><strong style="color:var(--text-medium);">When needed:</strong> Annually for most pets, or when you notice bad breath, drooling, reluctance to eat, or visible tartar.</p>
+        <a href="index.html#appointment" class="btn btn-primary btn-sm"><i class="fas fa-calendar-plus" aria-hidden="true"></i> Book Dental Exam</a>
+      </article>
+
+      <!-- Emergency -->
+      <article id="emergency" class="service-detail-card reveal delay-1">
+        <div class="service-detail-icon" aria-hidden="true"><i class="fas fa-ambulance"></i></div>
+        <h3>24/7 Emergency Care</h3>
+        <p>Pet emergencies are terrifying — and they happen without warning. Our emergency line is monitored 24 hours a day, 7 days a week. Whether it's a late-night toxin ingestion, a traumatic injury, difficulty breathing, or a sudden neurological event, Fahad Pets Clinic is your first call.</p>
+        <div class="service-benefits">
+          <h5>Emergency Services</h5>
+          <div class="benefit-item"><i class="fas fa-check-circle" aria-hidden="true"></i> 24/7 emergency telephone triage</div>
+          <div class="benefit-item"><i class="fas fa-check-circle" aria-hidden="true"></i> Trauma & injury management</div>
+          <div class="benefit-item"><i class="fas fa-check-circle" aria-hidden="true"></i> Toxin ingestion protocols</div>
+          <div class="benefit-item"><i class="fas fa-check-circle" aria-hidden="true"></i> Respiratory & cardiac emergencies</div>
+          <div class="benefit-item"><i class="fas fa-check-circle" aria-hidden="true"></i> After-hours specialist referrals</div>
+        </div>
+        <p style="font-size:0.85rem;color:var(--text-light);margin-bottom:20px;"><strong style="color:var(--text-medium);">Emergency line:</strong> +923076559678 — available 24 hours, 365 days a year.</p>
+        <a href="tel:+923076559678" class="btn btn-primary btn-sm"><i class="fas fa-phone-alt" aria-hidden="true"></i> Call Emergency Line</a>
+      </article>
+
+      <!-- Diagnostics -->
+      <article id="diagnostics" class="service-detail-card reveal delay-2">
+        <div class="service-detail-icon" aria-hidden="true"><i class="fas fa-microscope"></i></div>
+        <h3>Advanced Diagnostic Testing</h3>
+        <p>Accurate diagnosis is the foundation of effective treatment. Our in-house laboratory delivers bloodwork results within 30 minutes. Our digital radiography and ultrasound imaging systems allow Dr. Mitchell to visualize internal organs and structures with outstanding clarity, often revealing diagnoses invisible to physical examination alone.</p>
+        <div class="service-benefits">
+          <h5>Diagnostic Capabilities</h5>
+          <div class="benefit-item"><i class="fas fa-check-circle" aria-hidden="true"></i> Complete blood count & chemistry panel</div>
+          <div class="benefit-item"><i class="fas fa-check-circle" aria-hidden="true"></i> Urinalysis & fecal screening</div>
+          <div class="benefit-item"><i class="fas fa-check-circle" aria-hidden="true"></i> Digital full-body radiography</div>
+          <div class="benefit-item"><i class="fas fa-check-circle" aria-hidden="true"></i> Abdominal & cardiac ultrasound</div>
+          <div class="benefit-item"><i class="fas fa-check-circle" aria-hidden="true"></i> Cytology & fine needle aspirates</div>
+        </div>
+        <p style="font-size:0.85rem;color:var(--text-light);margin-bottom:20px;"><strong style="color:var(--text-medium);">When needed:</strong> Pre-surgical screening, illness workup, senior wellness panels, monitoring chronic conditions.</p>
+        <a href="index.html#appointment" class="btn btn-primary btn-sm"><i class="fas fa-calendar-plus" aria-hidden="true"></i> Book Diagnostic Appointment</a>
+      </article>
+
+      <!-- Nutrition -->
+      <article id="nutrition" class="service-detail-card reveal delay-1">
+        <div class="service-detail-icon" aria-hidden="true"><i class="fas fa-apple-alt"></i></div>
+        <h3>Pet Nutrition Counseling</h3>
+        <p>What your pet eats directly determines their long-term health, energy, and disease resistance. Dr. Mitchell provides science-based nutritional consultations, evaluating commercial foods, raw diets, and prescription therapeutic diets for pets with specific medical conditions such as kidney disease, diabetes, obesity, or food allergies.</p>
+        <div class="service-benefits">
+          <h5>Nutritional Services</h5>
+          <div class="benefit-item"><i class="fas fa-check-circle" aria-hidden="true"></i> Life-stage diet recommendations</div>
+          <div class="benefit-item"><i class="fas fa-check-circle" aria-hidden="true"></i> Weight management programs</div>
+          <div class="benefit-item"><i class="fas fa-check-circle" aria-hidden="true"></i> Prescription therapeutic diets</div>
+          <div class="benefit-item"><i class="fas fa-check-circle" aria-hidden="true"></i> Raw / home-cooked diet evaluation</div>
+          <div class="benefit-item"><i class="fas fa-check-circle" aria-hidden="true"></i> Food allergy identification</div>
+        </div>
+        <p style="font-size:0.85rem;color:var(--text-light);margin-bottom:20px;"><strong style="color:var(--text-medium);">When needed:</strong> Overweight pets, pets with medical conditions, puppies/kittens, senior pets, or any time you want to optimize your pet's diet.</p>
+        <a href="index.html#appointment" class="btn btn-primary btn-sm"><i class="fas fa-calendar-plus" aria-hidden="true"></i> Book Nutrition Consult</a>
+      </article>
+
+      <!-- Parasite Prevention -->
+      <article id="preventive" class="service-detail-card reveal delay-2">
+        <div class="service-detail-icon" aria-hidden="true"><i class="fas fa-shield-alt"></i></div>
+        <h3>Parasite Prevention & Control</h3>
+        <p>Fleas, ticks, heartworm, and intestinal parasites pose serious health risks to your pets — and some can be transmitted to humans. Dr. Mitchell will assess your pet's parasite exposure risk and recommend the most effective, safe prevention protocol year-round.</p>
+        <div class="service-benefits">
+          <h5>Prevention Programs</h5>
+          <div class="benefit-item"><i class="fas fa-check-circle" aria-hidden="true"></i> Monthly heartworm prevention</div>
+          <div class="benefit-item"><i class="fas fa-check-circle" aria-hidden="true"></i> Flea & tick prevention strategies</div>
+          <div class="benefit-item"><i class="fas fa-check-circle" aria-hidden="true"></i> Annual heartworm testing</div>
+          <div class="benefit-item"><i class="fas fa-check-circle" aria-hidden="true"></i> Intestinal deworming protocols</div>
+          <div class="benefit-item"><i class="fas fa-check-circle" aria-hidden="true"></i> Tick-borne disease screening</div>
+        </div>
+        <p style="font-size:0.85rem;color:var(--text-light);margin-bottom:20px;"><strong style="color:var(--text-medium);">When needed:</strong> Year-round prevention is recommended for all dogs and cats, regardless of lifestyle or indoor/outdoor status.</p>
+        <a href="index.html#appointment" class="btn btn-primary btn-sm"><i class="fas fa-calendar-plus" aria-hidden="true"></i> Start a Prevention Plan</a>
+      </article>
+
+      <!-- Grooming / Wellness -->
+      <article id="wellness" class="service-detail-card reveal delay-1">
+        <div class="service-detail-icon" aria-hidden="true"><i class="fas fa-spa"></i></div>
+        <h3>Grooming & Wellness Checks</h3>
+        <p>Regular grooming isn't just cosmetic — it's a window into your pet's health. Our wellness grooming appointments include coat and skin inspection, nail trimming, ear cleaning, and anal gland expression, all performed with a clinical eye for abnormalities that owners might miss at home.</p>
+        <div class="service-benefits">
+          <h5>Wellness Services</h5>
+          <div class="benefit-item"><i class="fas fa-check-circle" aria-hidden="true"></i> Coat & skin condition assessment</div>
+          <div class="benefit-item"><i class="fas fa-check-circle" aria-hidden="true"></i> Nail trimming & paw care</div>
+          <div class="benefit-item"><i class="fas fa-check-circle" aria-hidden="true"></i> Ear cleaning & inspection</div>
+          <div class="benefit-item"><i class="fas fa-check-circle" aria-hidden="true"></i> Anal gland expression</div>
+          <div class="benefit-item"><i class="fas fa-check-circle" aria-hidden="true"></i> Body condition scoring</div>
+        </div>
+        <p style="font-size:0.85rem;color:var(--text-light);margin-bottom:20px;"><strong style="color:var(--text-medium);">When needed:</strong> Every 4–8 weeks depending on breed and coat type, or as part of regular wellness visits.</p>
+        <a href="index.html#appointment" class="btn btn-primary btn-sm"><i class="fas fa-calendar-plus" aria-hidden="true"></i> Book Wellness Visit</a>
+      </article>
+
+      <!-- Senior Pet Care -->
+      <article id="senior" class="service-detail-card reveal delay-2">
+        <div class="service-detail-icon" aria-hidden="true"><i class="fas fa-user-clock"></i></div>
+        <h3>Senior Pet Healthcare</h3>
+        <p>Our senior pets deserve special attention. Dogs and cats 7 years and older benefit from biannual checkups and targeted diagnostic panels to detect age-related conditions — arthritis, kidney disease, thyroid disorders, diabetes, cognitive dysfunction, and cancer — at their most treatable stages.</p>
+        <div class="service-benefits">
+          <h5>Senior Care Includes</h5>
+          <div class="benefit-item"><i class="fas fa-check-circle" aria-hidden="true"></i> Bi-annual comprehensive exams</div>
+          <div class="benefit-item"><i class="fas fa-check-circle" aria-hidden="true"></i> Geriatric bloodwork panels</div>
+          <div class="benefit-item"><i class="fas fa-check-circle" aria-hidden="true"></i> Arthritis & mobility assessment</div>
+          <div class="benefit-item"><i class="fas fa-check-circle" aria-hidden="true"></i> Cognitive function screening</div>
+          <div class="benefit-item"><i class="fas fa-check-circle" aria-hidden="true"></i> End-of-life comfort planning</div>
+        </div>
+        <p style="font-size:0.85rem;color:var(--text-light);margin-bottom:20px;"><strong style="color:var(--text-medium);">When needed:</strong> Dogs and cats 7 years and older should visit every 6 months for comprehensive senior wellness screening.</p>
+        <a href="index.html#appointment" class="btn btn-primary btn-sm"><i class="fas fa-calendar-plus" aria-hidden="true"></i> Book Senior Wellness Exam</a>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- CTA BANNER -->
+<section style="background:linear-gradient(135deg,var(--primary-dark),var(--primary));padding:80px 0;text-align:center;" aria-label="Call to action">
+  <div class="container">
+    <div class="section-label" style="background:rgba(255,255,255,0.15);color:rgba(255,255,255,0.9);margin:0 auto 24px;display:inline-flex;">
+      <i class="fas fa-paw" aria-hidden="true"></i> Ready to Get Started?
+    </div>
+    <h2 style="color:white;font-size:clamp(1.8rem,4vw,2.6rem);margin-bottom:16px;">Book Your Pet's Appointment Today</h2>
+    <p style="color:rgba(255,255,255,0.8);max-width:520px;margin:0 auto 36px;line-height:1.8;">Every pet deserves expert care. Schedule with Dr. Mitchell and give your animal companion the quality of life they deserve.</p>
+    <div style="display:flex;gap:16px;justify-content:center;flex-wrap:wrap;">
+      <a href="index.html#appointment" class="btn btn-accent btn-lg"><i class="fas fa-calendar-plus" aria-hidden="true"></i> Book Appointment</a>
+      <a href="contact.html" class="btn btn-outline-white btn-lg"><i class="fas fa-phone-alt" aria-hidden="true"></i> Call Us Now</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="footer" aria-label="Site footer">
+  <div class="footer-top">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="navbar-logo" style="margin-bottom:0;"><div class="logo-icon" aria-hidden="true"><i class="fas fa-paw"></i></div><div class="logo-text"><span class="clinic-name">Fahad Pets Clinic</span><span class="clinic-tagline">Veterinary Medicine</span></div></div>
+          <p class="footer-desc">Providing compassionate, professional veterinary care for dogs, cats, birds, and small animals since 2014.</p>
+          <div class="social-links" aria-label="Social media links">
+            <a href="#" class="social-link" aria-label="Facebook"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
+            <a href="#" class="social-link" aria-label="Instagram"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+            <a href="#" class="social-link" aria-label="YouTube"><i class="fab fa-youtube" aria-hidden="true"></i></a>
+            <a href="#" class="social-link" aria-label="LinkedIn"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="index.html" class="footer-link"><i class="fas fa-chevron-right" aria-hidden="true"></i> Home</a></li>
+            <li><a href="about.html" class="footer-link"><i class="fas fa-chevron-right" aria-hidden="true"></i> About</a></li>
+            <li><a href="services.html" class="footer-link"><i class="fas fa-chevron-right" aria-hidden="true"></i> Services</a></li>
+            <li><a href="doctors.html" class="footer-link"><i class="fas fa-chevron-right" aria-hidden="true"></i> Doctors</a></li>
+            <li><a href="contact.html" class="footer-link"><i class="fas fa-chevron-right" aria-hidden="true"></i> Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Our Services</h4>
+          <ul class="footer-links">
+            <li><a href="#consultation" class="footer-link"><i class="fas fa-chevron-right" aria-hidden="true"></i> Consultation</a></li>
+            <li><a href="#vaccination" class="footer-link"><i class="fas fa-chevron-right" aria-hidden="true"></i> Vaccination</a></li>
+            <li><a href="#surgery" class="footer-link"><i class="fas fa-chevron-right" aria-hidden="true"></i> Surgery</a></li>
+            <li><a href="#dental" class="footer-link"><i class="fas fa-chevron-right" aria-hidden="true"></i> Dental Care</a></li>
+            <li><a href="#emergency" class="footer-link"><i class="fas fa-chevron-right" aria-hidden="true"></i> Emergency Care</a></li>
+          </ul>
+        </div>
+          <div class="footer-col">
+          <h4>Contact Us</h4>
+          <div class="footer-contact-item"><i class="fas fa-phone-alt" aria-hidden="true"></i><span>+923076559678</span></div>
+          <div class="footer-contact-item"><i class="fas fa-envelope" aria-hidden="true"></i><span>info.fahadpets.clinic@gmail.com</span></div>
+          <div class="footer-contact-item"><i class="fas fa-map-marker-alt" aria-hidden="true"></i><span>842 Willow Creek Drive, Portland, OR</span></div>
+          <div class="footer-contact-item"><i class="fas fa-clock" aria-hidden="true"></i><span>Mon–Fri: 8 AM – 7 PM</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="footer-bottom">
+      <p class="footer-copyright">© 2026 Fahad Pets Clinic. All Rights Reserved.</p>
+      <nav class="footer-legal" aria-label="Legal links"><a href="#">Privacy Policy</a><a href="#">Terms of Service</a><a href="#">Accessibility</a></nav>
+    </div>
+  </div>
+</footer>
+
+<button id="backToTop" class="back-to-top" aria-label="Scroll back to top"><i class="fas fa-chevron-up" aria-hidden="true"></i></button>
+
+<script src="js/script.js"></script>
+</body>
+</html>

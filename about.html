@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Learn about Dr. Sarah Mitchell, DVM — her education, philosophy, mission, and over 10 years of compassionate veterinary care at Fahad Pets Clinic, Portland OR." />
+  <title>About Dr. Sarah Mitchell, DVM — Fahad Pets Clinic</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav id="navbar" class="navbar scrolled" aria-label="Main navigation">
+  <div class="container">
+    <div class="navbar-inner">
+      <a href="index.html" class="navbar-logo" aria-label="Fahad Pets Clinic Home">
+        <div class="logo-icon" style="background:rgba(26,107,60,0.1);box-shadow:none;" aria-hidden="true"><i class="fas fa-paw" style="color:var(--primary)"></i></div>
+        <div class="logo-text">
+          <span class="clinic-name" style="color:var(--primary-dark)">Fahad Pets Clinic</span>
+          <span class="clinic-tagline">Veterinary Medicine</span>
+        </div>
+      </a>
+      <ul class="navbar-menu" role="menubar">
+        <li role="none"><a href="index.html" class="nav-link" role="menuitem">Home</a></li>
+        <li role="none"><a href="about.html" class="nav-link active" role="menuitem">About</a></li>
+        <li role="none"><a href="services.html" class="nav-link" role="menuitem">Services</a></li>
+        <li role="none"><a href="doctors.html" class="nav-link" role="menuitem">Doctors</a></li>
+        <li role="none"><a href="contact.html" class="nav-link" role="menuitem">Contact</a></li>
+      </ul>
+      <div class="navbar-cta">
+        <a href="index.html#appointment" class="btn btn-primary btn-sm"><i class="fas fa-calendar-plus" aria-hidden="true"></i> Book Appointment</a>
+      </div>
+      <button id="hamburger" class="hamburger" aria-label="Open navigation menu" aria-expanded="false" aria-controls="mobileMenu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<!-- MOBILE MENU -->
+<div id="mobileOverlay" class="mobile-menu-overlay" aria-hidden="true"></div>
+<nav id="mobileMenu" class="mobile-menu" aria-label="Mobile navigation">
+  <div class="mobile-menu-header">
+    <div class="navbar-logo">
+      <div class="logo-icon" style="background:rgba(26,107,60,0.1);box-shadow:none;" aria-hidden="true"><i class="fas fa-paw" style="color:var(--primary)"></i></div>
+      <div class="logo-text">
+        <span class="clinic-name" style="color:var(--primary-dark)">Fahad Pets Clinic</span>
+        <span class="clinic-tagline">Veterinary Medicine</span>
+      </div>
+    </div>
+    <button id="mobileMenuClose" class="mobile-menu-close" aria-label="Close navigation menu"><i class="fas fa-times" aria-hidden="true"></i></button>
+  </div>
+  <ul class="mobile-nav-links" role="menu">
+    <li role="none"><a href="index.html" class="mobile-nav-link" role="menuitem"><i class="fas fa-home" aria-hidden="true"></i> Home</a></li>
+    <li role="none"><a href="about.html" class="mobile-nav-link active" role="menuitem"><i class="fas fa-user-md" aria-hidden="true"></i> About</a></li>
+    <li role="none"><a href="services.html" class="mobile-nav-link" role="menuitem"><i class="fas fa-stethoscope" aria-hidden="true"></i> Services</a></li>
+    <li role="none"><a href="doctors.html" class="mobile-nav-link" role="menuitem"><i class="fas fa-users" aria-hidden="true"></i> Doctors</a></li>
+    <li role="none"><a href="contact.html" class="mobile-nav-link" role="menuitem"><i class="fas fa-envelope" aria-hidden="true"></i> Contact</a></li>
+  </ul>
+  <a href="index.html#appointment" class="mobile-cta"><i class="fas fa-calendar-plus" aria-hidden="true"></i> Book an Appointment</a>
+</nav>
+
+<main>
+
+<!-- PAGE HERO -->
+<section class="page-hero" aria-label="Page header">
+  <div class="container" style="position:relative;z-index:2;">
+    <div class="section-label" style="background:rgba(255,255,255,0.15);color:rgba(255,255,255,0.9);margin-bottom:20px;">
+      <i class="fas fa-user-md" aria-hidden="true"></i> Our Veterinarian
+    </div>
+    <h1>About Dr. Sarah Mitchell, DVM</h1>
+    <p>A decade of compassionate care, clinical excellence, and dedication to animal health.</p>
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <a href="index.html">Home</a>
+      <i class="fas fa-chevron-right" aria-hidden="true"></i>
+      <span aria-current="page">About</span>
+    </nav>
+  </div>
+</section>
+
+<!-- ABOUT DOCTOR -->
+<section class="about-content-section" aria-labelledby="aboutDocTitle">
+  <div class="container">
+    <div class="about-doc-inner">
+
+      <!-- Image -->
+      <div class="reveal-left">
+        <div class="doctor-img-frame" style="border-radius:var(--border-radius-xl);overflow:hidden;box-shadow:var(--shadow-lg);">
+          <img
+            src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=700&q=80"
+            alt="Dr. Sarah Mitchell, DVM — Fahad Pets Clinic"
+            style="width:100%;height:540px;object-fit:cover;"
+            loading="lazy"
+          />
+        </div>
+
+        <!-- Credentials cards -->
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:24px;">
+          <div style="background:white;padding:20px;border-radius:var(--border-radius-sm);border:1px solid var(--border-light);text-align:center;box-shadow:var(--shadow-sm);">
+            <div style="font-family:var(--font-heading);font-size:2rem;font-weight:900;color:var(--primary);">10+</div>
+            <div style="font-size:0.82rem;color:var(--text-light);font-weight:500;">Years Experience</div>
+          </div>
+          <div style="background:white;padding:20px;border-radius:var(--border-radius-sm);border:1px solid var(--border-light);text-align:center;box-shadow:var(--shadow-sm);">
+            <div style="font-family:var(--font-heading);font-size:2rem;font-weight:900;color:var(--primary);">5K+</div>
+            <div style="font-size:0.82rem;color:var(--text-light);font-weight:500;">Patients Treated</div>
+          </div>
+          <div style="background:white;padding:20px;border-radius:var(--border-radius-sm);border:1px solid var(--border-light);text-align:center;box-shadow:var(--shadow-sm);">
+            <div style="font-family:var(--font-heading);font-size:2rem;font-weight:900;color:var(--primary);">8+</div>
+            <div style="font-size:0.82rem;color:var(--text-light);font-weight:500;">Certifications</div>
+          </div>
+          <div style="background:white;padding:20px;border-radius:var(--border-radius-sm);border:1px solid var(--border-light);text-align:center;box-shadow:var(--shadow-sm);">
+            <div style="font-family:var(--font-heading);font-size:2rem;font-weight:900;color:var(--primary);">98%</div>
+            <div style="font-size:0.82rem;color:var(--text-light);font-weight:500;">Client Satisfaction</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bio -->
+      <div class="reveal-right">
+        <div class="section-label"><i class="fas fa-stethoscope" aria-hidden="true"></i> Doctor of Veterinary Medicine</div>
+        <h2 id="aboutDocTitle" class="section-title">Dr. Sarah Mitchell, DVM</h2>
+
+        <p style="color:var(--text-medium);line-height:1.85;margin-bottom:18px;">
+          Dr. Sarah Mitchell is a board-certified Doctor of Veterinary Medicine with a passion for preventive care and a gift for connecting with both animals and their owners. Born and raised in Portland, Oregon, she grew up surrounded by animals and knew from childhood that veterinary medicine was her calling.
+        </p>
+        <p style="color:var(--text-light);line-height:1.85;margin-bottom:18px;">
+          After graduating summa cum laude from Cornell University College of Veterinary Medicine, Dr. Mitchell completed a prestigious one-year clinical internship in small animal medicine and surgery at the University of Pennsylvania's Ryan Veterinary Hospital. She then joined a multi-specialty practice in Seattle, where she honed her surgical skills and developed a deep interest in integrative veterinary approaches.
+        </p>
+        <p style="color:var(--text-light);line-height:1.85;margin-bottom:28px;">
+          In 2016, Dr. Mitchell returned to Portland and founded Fahad Pets Clinic with a single vision: to create a veterinary practice where every pet is treated as family, and where evidence-based medicine is always delivered with empathy and respect.
+        </p>
+
+        <div class="doctor-specialties" aria-label="Specialties">
+          <span class="specialty-tag"><i class="fas fa-dog" aria-hidden="true"></i> Small Animal Medicine</span>
+          <span class="specialty-tag"><i class="fas fa-cut" aria-hidden="true"></i> Soft Tissue Surgery</span>
+          <span class="specialty-tag"><i class="fas fa-tooth" aria-hidden="true"></i> Veterinary Dentistry</span>
+          <span class="specialty-tag"><i class="fas fa-x-ray" aria-hidden="true"></i> Diagnostic Imaging</span>
+          <span class="specialty-tag"><i class="fas fa-leaf" aria-hidden="true"></i> Integrative Medicine</span>
+          <span class="specialty-tag"><i class="fas fa-baby" aria-hidden="true"></i> Pediatric Care</span>
+          <span class="specialty-tag"><i class="fas fa-user-clock" aria-hidden="true"></i> Senior Pet Wellness</span>
+        </div>
+
+        <div style="display:flex;gap:16px;flex-wrap:wrap;margin-top:32px;">
+          <a href="index.html#appointment" class="btn btn-primary">
+            <i class="fas fa-calendar-plus" aria-hidden="true"></i> Book with Dr. Mitchell
+          </a>
+          <a href="contact.html" class="btn btn-secondary">
+            <i class="fas fa-envelope" aria-hidden="true"></i> Contact Us
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EDUCATION TIMELINE -->
+<section class="philosophy-section" aria-labelledby="educationTitle">
+  <div class="container">
+    <div class="section-header center">
+      <div class="section-label"><i class="fas fa-graduation-cap" aria-hidden="true"></i> Education & Training</div>
+      <h2 id="educationTitle" class="section-title reveal">Academic Background & Certifications</h2>
+      <p class="section-subtitle reveal delay-1">A rigorous academic foundation combined with continuous professional development.</p>
+    </div>
+
+    <div style="max-width:760px;margin:0 auto;">
+      <div class="timeline reveal">
+
+        <div class="timeline-item">
+          <div class="timeline-date">2006 – 2010</div>
+          <h4>Bachelor of Science in Animal Science</h4>
+          <p>Oregon State University, Corvallis, OR — Graduated magna cum laude with a focus on comparative physiology and animal behavior. Awarded Dean's List recognition for five consecutive semesters.</p>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-date">2010 – 2014</div>
+          <h4>Doctor of Veterinary Medicine (DVM)</h4>
+          <p>Cornell University College of Veterinary Medicine, Ithaca, NY — Earned DVM summa cum laude. Specialized coursework in small animal surgery, internal medicine, and diagnostic imaging. Active member of the Student AVMA chapter.</p>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-date">2014 – 2015</div>
+          <h4>Clinical Internship — Small Animal Medicine & Surgery</h4>
+          <p>University of Pennsylvania Ryan Veterinary Hospital, Philadelphia, PA — Intensive clinical training across all specialty departments including emergency medicine, cardiology, oncology, and neurology.</p>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-date">2015 – 2016</div>
+          <h4>Associate Veterinarian</h4>
+          <p>Cascade Animal Medical Center, Seattle, WA — Developed expertise in minimally invasive surgery, digital radiography interpretation, and advanced pain management protocols for companion animals.</p>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-date">2016 – Present</div>
+          <h4>Founder & Chief Veterinarian — Fahad Pets Clinic</h4>
+          <p>Portland, OR — Established and currently leads Fahad Pets Clinic, providing comprehensive veterinary services to thousands of pet families across the Portland metropolitan area.</p>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-date">Ongoing</div>
+          <h4>Continuing Education & Certifications</h4>
+          <p>Certified in Fear Free® Veterinary Practices (2018), Animal Rehabilitation Institute (2019), Veterinary Acupuncture (IVAS certified, 2020), and Advanced Laparoscopic Surgery (2022). Attends AVMA Annual Conference annually.</p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PHILOSOPHY -->
+<section class="about-content-section" style="background:white;" aria-labelledby="philosophyTitle">
+  <div class="container">
+    <div class="section-header center">
+      <div class="section-label"><i class="fas fa-heart" aria-hidden="true"></i> Our Philosophy</div>
+      <h2 id="philosophyTitle" class="section-title reveal">Veterinary Philosophy</h2>
+      <p class="section-subtitle reveal delay-1">Dr. Mitchell's approach to animal care is grounded in science, guided by compassion, and centered on partnership with pet families.</p>
+    </div>
+
+    <div class="philosophy-grid">
+      <div class="philosophy-card reveal delay-1">
+        <div class="philosophy-icon" aria-hidden="true"><i class="fas fa-shield-alt"></i></div>
+        <h3>Preventive-First Approach</h3>
+        <p>Prevention is always better — and more affordable — than treatment. Dr. Mitchell emphasizes annual wellness screenings, vaccination, parasite prevention, and lifestyle modifications to keep pets healthy for life.</p>
+      </div>
+
+      <div class="philosophy-card reveal delay-2">
+        <div class="philosophy-icon" aria-hidden="true"><i class="fas fa-hand-holding-heart"></i></div>
+        <h3>Compassionate Treatment</h3>
+        <p>Every animal deserves to be treated with kindness, patience, and dignity. Dr. Mitchell uses Fear Free® certified techniques to minimize stress and anxiety for every patient visit, no matter how routine.</p>
+      </div>
+
+      <div class="philosophy-card reveal delay-3">
+        <div class="philosophy-icon" aria-hidden="true"><i class="fas fa-balance-scale"></i></div>
+        <h3>Evidence-Based Medicine</h3>
+        <p>Clinical decisions are grounded in the latest peer-reviewed veterinary research. Dr. Mitchell stays current with continuing education and applies proven, scientifically validated treatments to every case.</p>
+      </div>
+
+      <div class="philosophy-card reveal delay-1">
+        <div class="philosophy-icon" aria-hidden="true"><i class="fas fa-users"></i></div>
+        <h3>Client Partnership</h3>
+        <p>Pet owners are essential members of the healthcare team. Dr. Mitchell invests time in educating clients, explaining diagnoses in plain language, and empowering families to make informed decisions about their pet's care.</p>
+      </div>
+
+      <div class="philosophy-card reveal delay-2">
+        <div class="philosophy-icon" aria-hidden="true"><i class="fas fa-seedling"></i></div>
+        <h3>Holistic Wellness</h3>
+        <p>True pet wellness goes beyond physical health. Dr. Mitchell addresses mental enrichment, behavioral health, nutrition, environmental enrichment, and the human-animal bond as essential components of care.</p>
+      </div>
+
+      <div class="philosophy-card reveal delay-3">
+        <div class="philosophy-icon" aria-hidden="true"><i class="fas fa-leaf"></i></div>
+        <h3>Integrative Care Options</h3>
+        <p>Alongside conventional medicine, Dr. Mitchell offers integrative modalities including veterinary acupuncture, rehabilitation therapy, and herbal supplementation when scientifically appropriate.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MISSION -->
+<section class="mission-section" aria-labelledby="missionTitle">
+  <div class="container" style="position:relative;z-index:2;">
+    <div class="section-label" style="background:rgba(255,255,255,0.15);color:rgba(255,255,255,0.9);margin:0 auto 24px;display:inline-flex;">
+      <i class="fas fa-star" aria-hidden="true"></i> Our Mission
+    </div>
+    <h2 id="missionTitle">Our Mission at Fahad Pets Clinic</h2>
+    <p>"To provide every pet with the highest standard of compassionate, evidence-based veterinary care — treating each animal as if it were our own, and each client as a trusted partner in their pet's health journey."</p>
+    <div style="display:flex;gap:16px;justify-content:center;flex-wrap:wrap;">
+      <a href="index.html#appointment" class="btn btn-accent btn-lg">
+        <i class="fas fa-calendar-plus" aria-hidden="true"></i> Book an Appointment
+      </a>
+      <a href="services.html" class="btn btn-outline-white btn-lg">
+        <i class="fas fa-stethoscope" aria-hidden="true"></i> Explore Services
+      </a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="footer" aria-label="Site footer">
+  <div class="footer-top">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="navbar-logo" style="margin-bottom:0;">
+            <div class="logo-icon" aria-hidden="true"><i class="fas fa-paw"></i></div>
+            <div class="logo-text"><span class="clinic-name">Fahad Pets Clinic</span><span class="clinic-tagline">Veterinary Medicine</span></div>
+          </div>
+          <p class="footer-desc">Providing compassionate, professional veterinary care for dogs, cats, birds, and small animals since 2014.</p>
+          <div class="social-links" aria-label="Social media links">
+            <a href="#" class="social-link" aria-label="Facebook"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
+            <a href="#" class="social-link" aria-label="Instagram"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+            <a href="#" class="social-link" aria-label="YouTube"><i class="fab fa-youtube" aria-hidden="true"></i></a>
+            <a href="#" class="social-link" aria-label="LinkedIn"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="index.html" class="footer-link"><i class="fas fa-chevron-right" aria-hidden="true"></i> Home</a></li>
+            <li><a href="about.html" class="footer-link"><i class="fas fa-chevron-right" aria-hidden="true"></i> About</a></li>
+            <li><a href="services.html" class="footer-link"><i class="fas fa-chevron-right" aria-hidden="true"></i> Services</a></li>
+            <li><a href="doctors.html" class="footer-link"><i class="fas fa-chevron-right" aria-hidden="true"></i> Doctors</a></li>
+            <li><a href="contact.html" class="footer-link"><i class="fas fa-chevron-right" aria-hidden="true"></i> Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Our Services</h4>
+          <ul class="footer-links">
+            <li><a href="services.html" class="footer-link"><i class="fas fa-chevron-right" aria-hidden="true"></i> General Consultation</a></li>
+            <li><a href="services.html" class="footer-link"><i class="fas fa-chevron-right" aria-hidden="true"></i> Vaccination</a></li>
+            <li><a href="services.html" class="footer-link"><i class="fas fa-chevron-right" aria-hidden="true"></i> Pet Surgery</a></li>
+            <li><a href="services.html" class="footer-link"><i class="fas fa-chevron-right" aria-hidden="true"></i> Dental Care</a></li>
+            <li><a href="services.html" class="footer-link"><i class="fas fa-chevron-right" aria-hidden="true"></i> Emergency Care</a></li>
+          </ul>
+        </div>
+          <div class="footer-col">
+          <h4>Contact Us</h4>
+          <div class="footer-contact-item"><i class="fas fa-phone-alt" aria-hidden="true"></i><span>+923076559678</span></div>
+          <div class="footer-contact-item"><i class="fas fa-envelope" aria-hidden="true"></i><span>info.fahadpets.clinic@gmail.com</span></div>
+          <div class="footer-contact-item"><i class="fas fa-map-marker-alt" aria-hidden="true"></i><span>842 Willow Creek Drive<br>Portland, OR 97201</span></div>
+          <div class="footer-contact-item"><i class="fas fa-clock" aria-hidden="true"></i><span>Mon–Fri: 8 AM – 7 PM<br>Sat: 9 AM – 5 PM</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="footer-bottom">
+      <p class="footer-copyright">© 2026 Fahad Pets Clinic. All Rights Reserved.</p>
+      <nav class="footer-legal" aria-label="Legal links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+        <a href="#">Accessibility</a>
+      </nav>
+    </div>
+  </div>
+</footer>
+
+<button id="backToTop" class="back-to-top" aria-label="Scroll back to top">
+  <i class="fas fa-chevron-up" aria-hidden="true"></i>
+</button>
+
+<script src="js/script.js"></script>
+</body>
+</html>

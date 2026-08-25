@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Meet the compassionate veterinary team at Fahad Pets Clinic — expert care for dogs, cats, birds, and small animals." />
+  <title>Our Veterinary Team — Fahad Pets Clinic | Doctors & Staff</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav id="navbar" class="navbar scrolled" aria-label="Main navigation">
+  <div class="container">
+    <div class="navbar-inner">
+      <a href="index.html" class="navbar-logo" aria-label="Fahad Pets Clinic Home">
+        <div class="logo-icon" style="background:rgba(26,107,60,0.1);box-shadow:none;" aria-hidden="true"><i class="fas fa-paw" style="color:var(--primary)"></i></div>
+        <div class="logo-text"><span class="clinic-name" style="color:var(--primary-dark)">Fahad Pets Clinic</span><span class="clinic-tagline">Veterinary Medicine</span></div>
+      </a>
+      <ul class="navbar-menu" role="menubar">
+        <li role="none"><a href="index.html" class="nav-link" role="menuitem">Home</a></li>
+        <li role="none"><a href="about.html" class="nav-link" role="menuitem">About</a></li>
+        <li role="none"><a href="services.html" class="nav-link" role="menuitem">Services</a></li>
+        <li role="none"><a href="doctors.html" class="nav-link active" role="menuitem">Doctors</a></li>
+        <li role="none"><a href="contact.html" class="nav-link" role="menuitem">Contact</a></li>
+      </ul>
+      <div class="navbar-cta">
+        <a href="index.html#appointment" class="btn btn-primary btn-sm"><i class="fas fa-calendar-plus" aria-hidden="true"></i> Book Appointment</a>
+      </div>
+      <button id="hamburger" class="hamburger" aria-label="Open navigation menu" aria-expanded="false" aria-controls="mobileMenu"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</nav>
+
+<!-- MOBILE MENU -->
+<div id="mobileOverlay" class="mobile-menu-overlay" aria-hidden="true"></div>
+<nav id="mobileMenu" class="mobile-menu" aria-label="Mobile navigation">
+  <div class="mobile-menu-header">
+          <div class="navbar-logo"><div class="logo-icon" style="background:rgba(26,107,60,0.1);box-shadow:none;" aria-hidden="true"><i class="fas fa-paw" style="color:var(--primary)"></i></div><div class="logo-text"><span class="clinic-name" style="color:var(--primary-dark)">Fahad Pets Clinic</span><span class="clinic-tagline">Veterinary Medicine</span></div></div>
+    <button id="mobileMenuClose" class="mobile-menu-close" aria-label="Close navigation menu"><i class="fas fa-times" aria-hidden="true"></i></button>
+  </div>
+  <ul class="mobile-nav-links" role="menu">
+    <li role="none"><a href="index.html" class="mobile-nav-link" role="menuitem"><i class="fas fa-home" aria-hidden="true"></i> Home</a></li>
+    <li role="none"><a href="about.html" class="mobile-nav-link" role="menuitem"><i class="fas fa-user-md" aria-hidden="true"></i> About</a></li>
+    <li role="none"><a href="services.html" class="mobile-nav-link" role="menuitem"><i class="fas fa-stethoscope" aria-hidden="true"></i> Services</a></li>
+    <li role="none"><a href="doctors.html" class="mobile-nav-link active" role="menuitem"><i class="fas fa-users" aria-hidden="true"></i> Doctors</a></li>
+    <li role="none"><a href="contact.html" class="mobile-nav-link" role="menuitem"><i class="fas fa-envelope" aria-hidden="true"></i> Contact</a></li>
+  </ul>
+  <a href="index.html#appointment" class="mobile-cta"><i class="fas fa-calendar-plus" aria-hidden="true"></i> Book an Appointment</a>
+</nav>
+
+<main>
+
+<!-- PAGE HERO -->
+<section class="page-hero" aria-label="Page header">
+  <div class="container" style="position:relative;z-index:2;">
+    <div class="section-label" style="background:rgba(255,255,255,0.15);color:rgba(255,255,255,0.9);margin-bottom:20px;">
+      <i class="fas fa-users" aria-hidden="true"></i> Our Team
+    </div>
+    <h1>Meet Our Veterinary Team</h1>
+    <p>Passionate, experienced, and dedicated to your pet's health and happiness.</p>
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <a href="index.html">Home</a>
+      <i class="fas fa-chevron-right" aria-hidden="true"></i>
+      <span aria-current="page">Doctors</span>
+    </nav>
+  </div>
+</section>
+
+<!-- DOCTORS SECTION -->
+<section class="doctors-section" aria-labelledby="doctorsTitle">
+  <div class="container">
+    <div class="section-header center">
+      <div class="section-label"><i class="fas fa-user-md" aria-hidden="true"></i> Veterinary Professionals</div>
+      <h2 id="doctorsTitle" class="section-title reveal">Our Expert Veterinary Team</h2>
+      <p class="section-subtitle reveal delay-1">Every member of our team shares a deep commitment to animal welfare and evidence-based veterinary medicine.</p>
+    </div>
+
+    <div class="doctors-grid">
+
+      <!-- Dr. Sarah Mitchell -->
+      <article class="doctor-card reveal delay-1">
+        <div class="doctor-card-image">
+          <img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=600&q=80" alt="Dr. Sarah Mitchell, DVM — Founder & Chief Veterinarian" loading="lazy" />
+          <div class="doctor-card-overlay">
+            <div class="doctor-card-social" aria-label="Dr. Mitchell's social profiles">
+              <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
+              <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
+              <a href="#" aria-label="Twitter/X"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="doctor-card-info">
+          <div class="doctor-specialty-tag">Small Animal Medicine & Surgery</div>
+          <h3>Dr. Sarah Mitchell</h3>
+          <p class="title">DVM — Founder & Chief Veterinarian</p>
+          <p>Dr. Mitchell founded Fahad Pets Clinic in 2016 after completing her DVM at Cornell University and a clinical internship at UPenn. She specializes in soft tissue surgery, diagnostic imaging, and integrative veterinary medicine. Her Fear Free® certification ensures every patient visit is as stress-free as possible.</p>
+          <div class="doctor-exp-badge" aria-label="10+ years experience">
+            <i class="fas fa-award" aria-hidden="true"></i> 10+ Years Experience
+          </div>
+        </div>
+      </article>
+
+      <!-- Dr. James Chen -->
+      <article class="doctor-card reveal delay-2">
+        <div class="doctor-card-image">
+          <img src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=600&q=80" alt="Dr. James Chen, DVM — Veterinary Internist" loading="lazy" />
+          <div class="doctor-card-overlay">
+            <div class="doctor-card-social" aria-label="Dr. Chen's social profiles">
+              <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
+              <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
+              <a href="#" aria-label="Twitter/X"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="doctor-card-info">
+          <div class="doctor-specialty-tag">Internal Medicine & Emergency</div>
+          <h3>Dr. James Chen</h3>
+          <p class="title">DVM — Associate Veterinarian & Emergency Specialist</p>
+          <p>Dr. Chen joined Fahad Pets Clinic in 2019 after 4 years as an emergency veterinarian at a busy metropolitan animal hospital. His expertise in internal medicine, critical care, and complex diagnostics makes him an invaluable asset to the team. He has a particular passion for feline medicine.</p>
+          <div class="doctor-exp-badge" aria-label="8 years experience">
+            <i class="fas fa-award" aria-hidden="true"></i> 8 Years Experience
+          </div>
+        </div>
+      </article>
+
+      <!-- Dr. Priya Patel -->
+      <article class="doctor-card reveal delay-3">
+        <div class="doctor-card-image">
+          <img src="https://images.unsplash.com/photo-1594824476967-48c8b964273f?w=600&q=80" alt="Dr. Priya Patel, DVM — Veterinary Dentist & Exotic Animal Specialist" loading="lazy" />
+          <div class="doctor-card-overlay">
+            <div class="doctor-card-social" aria-label="Dr. Patel's social profiles">
+              <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
+              <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
+              <a href="#" aria-label="Twitter/X"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="doctor-card-info">
+          <div class="doctor-specialty-tag">Dentistry & Exotic Animals</div>
+          <h3>Dr. Priya Patel</h3>
+          <p class="title">DVM — Veterinary Dentist & Exotic Animal Specialist</p>
+          <p>Dr. Patel completed her DVM at UC Davis and a specialized residency in veterinary dentistry and oral surgery. She is one of the few veterinarians in the region with advanced training in avian and exotic pet medicine. She also leads our Fear Free® patient care initiatives at Fahad Pets Clinic.</p>
+          <div class="doctor-exp-badge" aria-label="6 years experience">
+            <i class="fas fa-award" aria-hidden="true"></i> 6 Years Experience
+          </div>
+        </div>
+      </article>
+
+      <!-- Dr. Marcus Williams -->
+      <article class="doctor-card reveal delay-1">
+        <div class="doctor-card-image">
+          <img src="https://images.unsplash.com/photo-1537368910025-700350fe46c7?w=600&q=80" alt="Dr. Marcus Williams, DVM — Orthopedic & Rehabilitation Specialist" loading="lazy" />
+          <div class="doctor-card-overlay">
+            <div class="doctor-card-social" aria-label="Dr. Williams's social profiles">
+              <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
+              <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
+              <a href="#" aria-label="Twitter/X"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="doctor-card-info">
+          <div class="doctor-specialty-tag">Orthopedics & Rehabilitation</div>
+          <h3>Dr. Marcus Williams</h3>
+          <p class="title">DVM — Orthopedic & Rehabilitation Medicine</p>
+          <p>Dr. Williams brings specialized expertise in veterinary orthopedics and physical rehabilitation. After earning his DVM from the University of Minnesota, he completed a two-year residency in sports medicine and rehabilitation. He works closely with large-breed dogs and senior pets requiring mobility support.</p>
+          <div class="doctor-exp-badge" aria-label="7 years experience">
+            <i class="fas fa-award" aria-hidden="true"></i> 7 Years Experience
+          </div>
+        </div>
+      </article>
+
+      <!-- Dr. Elena Rodriguez -->
+      <article class="doctor-card reveal delay-2">
+        <div class="doctor-card-image">
+          <img src="https://images.unsplash.com/photo-1582750433449-648ed127bb54?w=600&q=80" alt="Dr. Elena Rodriguez, DVM — Dermatology & Allergy Specialist" loading="lazy" />
+          <div class="doctor-card-overlay">
+            <div class="doctor-card-social" aria-label="Dr. Rodriguez's social profiles">
+              <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
+              <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
+              <a href="#" aria-label="Twitter/X"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="doctor-card-info">
+          <div class="doctor-specialty-tag">Dermatology & Allergy</div>
+          <h3>Dr. Elena Rodriguez</h3>
+          <p class="title">DVM — Veterinary Dermatology Specialist</p>
+          <p>Dr. Rodriguez is our resident expert in veterinary dermatology and allergy medicine. She received additional training at the American College of Veterinary Dermatology and specializes in diagnosing and treating skin conditions, food allergies, environmental allergies, and chronic ear infections in dogs and cats.</p>
+          <div class="doctor-exp-badge" aria-label="5 years experience">
+            <i class="fas fa-award" aria-hidden="true"></i> 5 Years Experience
+          </div>
+        </div>
+      </article>
+
+      <!-- Dr. Thomas Park -->
+      <article class="doctor-card reveal delay-3">
+        <div class="doctor-card-image">
+          <img src="https://images.unsplash.com/photo-1622902046580-2b47f47f5471?w=600&q=80" alt="Dr. Thomas Park, DVM — Senior & Oncology Specialist" loading="lazy" />
+          <div class="doctor-card-overlay">
+            <div class="doctor-card-social" aria-label="Dr. Park's social profiles">
+              <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
+              <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
+              <a href="#" aria-label="Twitter/X"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="doctor-card-info">
+          <div class="doctor-specialty-tag">Senior Care & Oncology</div>
+          <h3>Dr. Thomas Park</h3>
+          <p class="title">DVM — Senior Pet Care & Oncology</p>
+          <p>Dr. Park has devoted his career to improving quality of life for senior and seriously ill pets. He has extensive training in veterinary oncology and palliative care, and he leads Fahad Pets Clinic's Senior Wellness Program. He is known for his gentle, empathetic approach to difficult diagnoses and end-of-life discussions.</p>
+          <div class="doctor-exp-badge" aria-label="9 years experience">
+            <i class="fas fa-award" aria-hidden="true"></i> 9 Years Experience
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- SUPPORT TEAM -->
+<section style="background:var(--bg-white);padding:80px 0;" aria-labelledby="supportTeamTitle">
+  <div class="container">
+    <div class="section-header center">
+      <div class="section-label"><i class="fas fa-heart" aria-hidden="true"></i> Support Staff</div>
+      <h2 id="supportTeamTitle" class="section-title reveal">Our Dedicated Support Team</h2>
+      <p class="section-subtitle reveal delay-1">Behind every great veterinarian is an incredible team of registered vet nurses, technicians, and client care coordinators.</p>
+    </div>
+
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:28px;" class="responsive-grid">
+      <div class="why-card" style="background:var(--bg-light);border:1px solid var(--border-light);" class="reveal delay-1">
+        <div class="why-icon" style="background:rgba(26,107,60,0.1);" aria-hidden="true"><i class="fas fa-user-nurse" style="color:var(--primary)"></i></div>
+        <h3 style="color:var(--text-dark);">Registered Veterinary Nurses</h3>
+        <p style="color:var(--text-light);">Our team of 4 registered veterinary nurses assists with procedures, administers medications, performs pre-surgical preparation, and provides compassionate recovery care.</p>
+      </div>
+      <div class="why-card" style="background:var(--bg-light);border:1px solid var(--border-light);" class="reveal delay-2">
+        <div class="why-icon" style="background:rgba(26,107,60,0.1);" aria-hidden="true"><i class="fas fa-flask" style="color:var(--primary)"></i></div>
+        <h3 style="color:var(--text-dark);">Veterinary Technicians</h3>
+        <p style="color:var(--text-light);">Skilled in venipuncture, digital radiography, laboratory processing, anesthesia monitoring, and dental prophylaxis. All hold AVT certification.</p>
+      </div>
+      <div class="why-card" style="background:var(--bg-light);border:1px solid var(--border-light);" class="reveal delay-3">
+        <div class="why-icon" style="background:rgba(26,107,60,0.1);" aria-hidden="true"><i class="fas fa-headset" style="color:var(--primary)"></i></div>
+        <h3 style="color:var(--text-dark);">Client Care Coordinators</h3>
+        <p style="color:var(--text-light);">Our front desk and care coordination team ensures seamless scheduling, insurance assistance, follow-up communication, and a warm welcome for every pet and family.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- JOIN US BANNER -->
+<section style="background:linear-gradient(135deg,var(--primary-dark),var(--primary));padding:80px 0;text-align:center;" aria-label="Join our team">
+  <div class="container">
+    <h2 style="color:white;margin-bottom:16px;">Passionate About Animal Care?</h2>
+    <p style="color:rgba(255,255,255,0.8);max-width:520px;margin:0 auto 36px;">We're always looking for talented, compassionate veterinary professionals to join the Fahad Pets Clinic family. Browse current openings or send us your CV.</p>
+    <div style="display:flex;gap:16px;justify-content:center;flex-wrap:wrap;">
+      <a href="contact.html" class="btn btn-accent btn-lg"><i class="fas fa-paper-plane" aria-hidden="true"></i> Contact Us</a>
+      <a href="index.html#appointment" class="btn btn-outline-white btn-lg"><i class="fas fa-calendar-plus" aria-hidden="true"></i> Book with Our Team</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="footer" aria-label="Site footer">
+  <div class="footer-top">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="navbar-logo" style="margin-bottom:0;"><div class="logo-icon" aria-hidden="true"><i class="fas fa-paw"></i></div><div class="logo-text"><span class="clinic-name">Fahad Pets Clinic</span><span class="clinic-tagline">Veterinary Medicine</span></div></div>
+          <p class="footer-desc">Providing compassionate, professional veterinary care for dogs, cats, birds, and small animals since 2014.</p>
+          <div class="social-links" aria-label="Social media links">
+            <a href="#" class="social-link" aria-label="Facebook"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
+            <a href="#" class="social-link" aria-label="Instagram"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+            <a href="#" class="social-link" aria-label="YouTube"><i class="fab fa-youtube" aria-hidden="true"></i></a>
+            <a href="#" class="social-link" aria-label="LinkedIn"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
+          </div>
+        </div>
+        <div class="footer-col"><h4>Quick Links</h4><ul class="footer-links"><li><a href="index.html" class="footer-link"><i class="fas fa-chevron-right" aria-hidden="true"></i> Home</a></li><li><a href="about.html" class="footer-link"><i class="fas fa-chevron-right" aria-hidden="true"></i> About</a></li><li><a href="services.html" class="footer-link"><i class="fas fa-chevron-right" aria-hidden="true"></i> Services</a></li><li><a href="doctors.html" class="footer-link"><i class="fas fa-chevron-right" aria-hidden="true"></i> Doctors</a></li><li><a href="contact.html" class="footer-link"><i class="fas fa-chevron-right" aria-hidden="true"></i> Contact</a></li></ul></div>
+        <div class="footer-col"><h4>Our Services</h4><ul class="footer-links"><li><a href="services.html" class="footer-link"><i class="fas fa-chevron-right" aria-hidden="true"></i> Consultation</a></li><li><a href="services.html" class="footer-link"><i class="fas fa-chevron-right" aria-hidden="true"></i> Vaccination</a></li><li><a href="services.html" class="footer-link"><i class="fas fa-chevron-right" aria-hidden="true"></i> Surgery</a></li><li><a href="services.html" class="footer-link"><i class="fas fa-chevron-right" aria-hidden="true"></i> Dental Care</a></li><li><a href="services.html" class="footer-link"><i class="fas fa-chevron-right" aria-hidden="true"></i> Emergency Care</a></li></ul></div>
+        <div class="footer-col"><h4>Contact Us</h4><div class="footer-contact-item"><i class="fas fa-phone-alt" aria-hidden="true"></i><span>+923076559678</span></div><div class="footer-contact-item"><i class="fas fa-envelope" aria-hidden="true"></i><span>info.fahadpets.clinic@gmail.com</span></div><div class="footer-contact-item"><i class="fas fa-map-marker-alt" aria-hidden="true"></i><span>842 Willow Creek Drive, Portland, OR</span></div><div class="footer-contact-item"><i class="fas fa-clock" aria-hidden="true"></i><span>Mon–Fri: 8 AM – 7 PM</span></div></div>
+      </div>
+    </div>
+  </div>
+  <div class="container"><div class="footer-bottom"><p class="footer-copyright">© 2026 Fahad Pets Clinic. All Rights Reserved.</p><nav class="footer-legal" aria-label="Legal links"><a href="#">Privacy Policy</a><a href="#">Terms of Service</a><a href="#">Accessibility</a></nav></div></div>
+</footer>
+
+<button id="backToTop" class="back-to-top" aria-label="Scroll back to top"><i class="fas fa-chevron-up" aria-hidden="true"></i></button>
+
+<script src="js/script.js"></script>
+</body>
+</html>
